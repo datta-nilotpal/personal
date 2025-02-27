@@ -372,6 +372,7 @@ footer {
 
 footer p {
 	color: #FFF;
+	max-width: 75vw;
 	font-style: normal;
 	text-align: center;
 	font-size: 12px;
