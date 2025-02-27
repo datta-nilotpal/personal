@@ -426,10 +426,10 @@ footer address a {
 		padding-right: 0;
 		padding-bottom: 10px;
 	}
-	#faq-section {
-		width: 100%;
+	#long-section {
+		width: 95%;
 	}
-	#faq-section h3, #faq-section p, .faq-item .faq-list {
+	#long-section h3, #long-section p, .long-item .long-list {
 		font-size: 0.5em;
 	}
 }
