@@ -377,11 +377,12 @@ footer p {
 	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
-	font-style: normal;
 	padding: 0 0 50px;
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
+	bottom: 0;
+	width: auto;
 }
 
 footer address {
