@@ -135,7 +135,7 @@ h1 {
 	box-sizing: border-box;
 	color: #000;
 	cursor: pointer;
-	font-size: 1em;
+	font-size: 2em;
 	height: 44px;
 	margin: 20px;
 	outline: none;
@@ -155,7 +155,7 @@ h1 {
 }
 
 .hero-btn img {
-	height: 1em;
+	height: 2em;
 	width: auto;
 	vertical-align: middle;
 	padding-right: 7px;
@@ -327,7 +327,7 @@ h1 {
 	appearance: button;
 	backface-visibility: hidden;
 	background-color: #1AEF41;
-	border-radius: 1em;
+	border-radius: 2em;
 	border-width: 0;
 	box-shadow: rgba(60, 240, 26, .1) 0 0 0 1px inset,rgba(60, 240, 26, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
 	box-sizing: border-box;
@@ -352,7 +352,7 @@ h1 {
 }
 
 #cta-section a img {
-	height: 1em;
+	height: 2em;
 	width: auto;
 	vertical-align: middle;
 	padding-right: 7px;
@@ -410,6 +410,12 @@ footer address a {
 	}
 	#hero-section h3, #cta-section p {
 		font-size: 1.5em;
+	}
+	.hero-btn {
+		font-size: 1em
+	}
+	.hero-btn img {
+		height: 1em;
 	}
 	.whyus-card {
 		width: 75%;
