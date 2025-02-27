@@ -404,7 +404,9 @@ footer address a {
 	#hero-section h2, #faq-section h2, #cta-section h2 {
 		font-size: 3em;
 	}
-	
+	.contact-details {
+		text-align: center;
+	}
 	#hero-section h3, #cta-section p {
 		font-size: 1.5em;
 	}
