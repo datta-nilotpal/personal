@@ -381,6 +381,7 @@ footer p {
 	position: fixed;
 	transform: translateX(-50%);
 	width: auto;
+	bottom: 10px;
 }
 
 footer address {
