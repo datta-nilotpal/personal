@@ -372,16 +372,12 @@ footer {
 
 footer p {
 	color: #FFF;
-	max-width: 75vw;
 	font-style: normal;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
+	fontstyle: normal;
 	padding: 0 0 50px;
-	position: fixed;
-	transform: translateX(-50%);
-	width: auto;
-	bottom: 0;
 }
 
 footer address {
