@@ -78,7 +78,7 @@ h1 {
 	background-repeat: no-repeat;
 	display: inline-flex;
 	width: 100%
-	
+	margin-bottom: 0;
 }
 
 .hero-container {
@@ -406,6 +406,9 @@ footer address a {
 		text-align: center;
 		padding: 0 10px;
 	}
+	#hero-section {
+        height: 90vh;
+    	}
 	#hero-section h2, #faq-section h2, #cta-section h2 {
 		font-size: 3em;
 	}
