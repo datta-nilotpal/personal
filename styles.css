@@ -402,9 +402,7 @@ footer address a {
 		padding: 10px 0;
 	}
 	.contact-details {
-		text-align: center;
-		padding-right: 10px;
-		font-style: normal;
+		padding: 0 10px;
 	}
 	#hero-section h2, #faq-section h2, #cta-section h2 {
 		font-size: 3em;
