@@ -377,8 +377,10 @@ footer p {
 	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
-	fontstyle: normal;
+	font-style: normal;
 	padding: 0 0 50px;
+	position: fixed;
+	left: 50%;
 	transform: translateX(-50%);
 }
 
