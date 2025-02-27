@@ -419,7 +419,7 @@ footer address a {
 		flex-direction: column;
 	}
 	.whyus-card h3, .whyus-card p {
-		font-size: 1em;
+		font-size: 0.5em;
 		text-align: center;
 	}
 	.whyus-card img {
@@ -427,9 +427,9 @@ footer address a {
 		padding-bottom: 10px;
 	}
 	#faq-section {
-		width: 85%;
+		width: 95%;
 	}
 	#faq-section h3, #faq-section p, .faq-item .faq-list {
-		font-size: 1.5em;
+		font-size: 0.5em;
 	}
 }
