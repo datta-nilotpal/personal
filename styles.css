@@ -136,7 +136,7 @@ h1 {
 	box-sizing: border-box;
 	color: #000;
 	cursor: pointer;
-	font-size: 24px;
+	font-size: 1em;
 	height: 44px;
 	margin: 20px;
 	outline: none;
