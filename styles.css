@@ -401,11 +401,13 @@ footer address a {
 		justify-content: center;
 		padding: 10px 0;
 	}
-	#hero-section h2, #faq-section h2, #cta-section h2 {
-		font-size: 3em;
-	}
 	.contact-details {
 		text-align: center;
+		padding-right: 10px;
+		font-style: normal;
+	}
+	#hero-section h2, #faq-section h2, #cta-section h2 {
+		font-size: 3em;
 	}
 	#hero-section h3, #cta-section p {
 		font-size: 1.5em;
