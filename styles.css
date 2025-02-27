@@ -30,7 +30,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: absolute;
+	position: relative;
 	width: 100%;
 }
 
@@ -78,6 +78,7 @@ h1 {
 	background-repeat: no-repeat;
 	display: inline-flex;
 	width: 100%
+	
 }
 
 .hero-container {
