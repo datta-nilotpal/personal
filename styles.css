@@ -374,6 +374,7 @@ footer p {
 	flex:
 	color: #FFF;
 	padding: 0;
+	display: flex;
 	max-width: 50%; 
 	text-align: center;
 	font-size: 12px;
