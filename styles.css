@@ -379,6 +379,7 @@ footer p {
 	font-weight: 400;
 	fontstyle: normal;
 	padding: 0 0 50px;
+	transform: translateX(-50%);
 }
 
 footer address {
