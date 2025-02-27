@@ -432,4 +432,7 @@ footer address a {
 	#cta-section h2 {
 		font size: 2em;
 	}
+	#cta-section p {
+		font-size: 12px;
+	}
 }
