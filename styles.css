@@ -333,7 +333,7 @@ h1 {
 	box-sizing: border-box;
 	color: #000;
 	cursor: pointer;
-	font-size: 24px;
+	font-size: 12px;
 	height: 44px;
 	margin: 20px;
 	outline: none;
@@ -430,6 +430,9 @@ footer address a {
 		width: 95%;
 	}
 	#long-section h3, #long-section p, .long-item .long-list {
-		font-size: 0.5em;
+		font-size: 1em;
+	}
+	#cta-section h2 {
+		font size: 2em;
 	}
 }
