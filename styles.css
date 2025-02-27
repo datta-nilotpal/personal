@@ -135,7 +135,7 @@ h1 {
 	box-sizing: border-box;
 	color: #000;
 	cursor: pointer;
-	font-size: 2em;
+	font-size: 1em;
 	height: 44px;
 	margin: 20px;
 	outline: none;
@@ -155,7 +155,7 @@ h1 {
 }
 
 .hero-btn img {
-	height: 2em;
+	height: 1em;
 	width: auto;
 	vertical-align: middle;
 	padding-right: 7px;
