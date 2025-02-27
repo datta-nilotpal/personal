@@ -156,7 +156,7 @@ h1 {
 }
 
 .hero-btn img {
-	height: 24px;
+	height: 1em;
 	width: auto;
 	vertical-align: middle;
 	padding-right: 7px;
@@ -328,7 +328,7 @@ h1 {
 	appearance: button;
 	backface-visibility: hidden;
 	background-color: #1AEF41;
-	border-radius: 25px;
+	border-radius: 1em;
 	border-width: 0;
 	box-shadow: rgba(60, 240, 26, .1) 0 0 0 1px inset,rgba(60, 240, 26, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
 	box-sizing: border-box;
@@ -353,7 +353,7 @@ h1 {
 }
 
 #cta-section a img {
-	height: 24px;
+	height: 1em;
 	width: auto;
 	vertical-align: middle;
 	padding-right: 7px;
