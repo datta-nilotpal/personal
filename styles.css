@@ -276,6 +276,7 @@ h1 {
 #long-section p {
     	font-size: 1.2em;
 	line-height: 1.5;
+	padding: 20px 0;
 }
 
 .long-list {
