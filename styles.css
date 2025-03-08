@@ -224,7 +224,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 25%;
     margin: 2em;
     padding: 1em;
     text-align: center;
@@ -236,27 +236,12 @@ header {
 
 .practice-card h3 {
 	color: #000;
-	font-weight: 300;
+	font-weight: 400;
 	font-style: normal;
    	font-size: 1.2em;
 	line-height: 1.5;
 	padding: 5px 0;
 	text-align: left;
-}
-
-.practice-card p {
-	color: #000;
-	font-weight: 300;
-	font-style: normal;
-   	font-size: 1.2em;
-	line-height: 1.5;
-	text-align: left;
-}
-
-.practice-card img {
-	height: 50px;
-	width:	auto;
-	padding-right: 20px;
 }
 
 #long-section {
@@ -415,18 +400,15 @@ footer address a {
 	.btn img {
 		height: 1em;
 	}
-	.whyus-card {
+	.practice-card {
 		width: 75%;
 		flex-direction: column;
 	}
-	.whyus-card h3, .whyus-card p {
+	.practice-card h3, {
 		font-size: 1em;
 		text-align: center;
 	}
-	.whyus-card img {
-		padding-right: 0;
-		padding-bottom: 10px;
-	}
+
 	#long-section {
 		width: 90%;
 	}
