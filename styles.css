@@ -276,14 +276,6 @@ header {
 	padding: 20px 0;
 }
 
-.long-list {
-	list-style-position: outside;
-	list-style-type: square;
-	padding: 10px 0 10px 20px;
-	font-size: 1.2em;
-	line-height: 1.5;
-}
-
 #cta-section {
 	border-top: 5px solid transparent;
 	border-image: linear-gradient(to right, #1A81EF 0%, #1A81EF 40%, #211AF0 50%, #1A81EF 60%, #1A81EF 100%) 1;
@@ -412,7 +404,7 @@ footer address a {
 	#long-section {
 		width: 90%;
 	}
-	#long-section h3, #long-section p, .long-item .long-list {
+	#long-section h3, #long-section p, {
 		font-size: 1em;
 	}
 	#cta-section h2 {
