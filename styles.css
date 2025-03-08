@@ -34,25 +34,24 @@ header {
 	width: 100%;
 }
 
-.logoandh1 {
+.logoandh {
 	text-decoration: none;
-	display: flex;
-	flex-direction: row;
 	align-items: center;
 	padding: 2px 10px;
 }
 
-h1 {
-	color: #000;
-	font-size: 25px;
-	font-weight: 800;
-	letter-spacing: -1px;
+.logoandh h1 {
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: -10px;
+    color: #000;
 }
 
-.logoandh1 img {
-	height: 35px;
-	width: auto;
-	padding-right: 10px;
+.logoandh h2 {
+	font-weight: 500;
+	font-style: italic;
+	color: #1D4EF0;
+	font-size: 15px;
 }
 
 .contact-details {
@@ -121,7 +120,7 @@ h1 {
 	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
 }
 
-.hero-btn {
+.btn {
 	display:flex;
 	appearance: button;
 	backface-visibility: hidden;
@@ -135,7 +134,7 @@ h1 {
 	box-sizing: border-box;
 	color: #000;
 	cursor: pointer;
-	font-size: 1em;
+	font-size: 20px;
 	height: 44px;
 	margin: 20px;
 	outline: none;
@@ -154,18 +153,18 @@ h1 {
 	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
 }
 
-.hero-btn img {
-	height: 1em;
+.btn img {
+	height: 20px;
 	width: auto;
 	vertical-align: middle;
 	padding-right: 7px;
 }
 
-.hero-btn:disabled {
+.btn:disabled {
 	cursor: default;
 }
 
-.hero-btn:focus {
+.btn:focus {
 	box-shadow: rgba(255, 255, 255, 1) 0 0 0 2px;
 }
 
@@ -181,50 +180,63 @@ h1 {
 	}
 }
 
-#whyus-section {
+#practice-areas {
 	background: #DBE9F4;
 	padding: 2em;
 }
 
-.whyus-container {
+#practice-areas h2 {
+	padding: 0;
+	line-height: 1.5;
+	text-align: center;
+	font-weight: 500;
+	font-style: normal;
+    	font-size: 3em;
+	line-height: 1.15;
+	text-align: center;
+}
+
+.number {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.practice-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.whyus-card {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	width: 40%;
-    	margin: 2em;
-	padding: 1em;
-	text-align: center;
-	background: rgba(255, 255, 255, 0.2);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.3);
+.practice-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-@keyframes easeOutAnimation {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.animate-on-scroll {
-    animation: easeOutAnimation 0.3s ease-out forwards;
-}
-
-.whyus-card h3 {
+.practice-card h3 {
 	color: #000;
-	font-weight: 500;
+	font-weight: 300;
 	font-style: normal;
    	font-size: 1.2em;
 	line-height: 1.5;
@@ -232,7 +244,7 @@ h1 {
 	text-align: left;
 }
 
-.whyus-card p {
+.practice-card p {
 	color: #000;
 	font-weight: 300;
 	font-style: normal;
@@ -241,7 +253,7 @@ h1 {
 	text-align: left;
 }
 
-.whyus-card img {
+.practice-card img {
 	height: 50px;
 	width:	auto;
 	padding-right: 20px;
@@ -334,7 +346,7 @@ h1 {
 	box-sizing: border-box;
 	color: #000;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 20px;
 	height: 44px;
 	margin: 20px;
 	outline: none;
@@ -350,21 +362,6 @@ h1 {
 	user-select: none;
 	-webkit-user-select: none;
 	touch-action: manipulation;
-}
-
-#cta-section a img {
-	height: 2em;
-	width: auto;
-	vertical-align: middle;
-	padding-right: 7px;
-}
-
-#cta-section a:disabled {
-	cursor: default;
-}
-
-#cta-section a:focus {
-	box-shadow: rgba(255, 255, 255, 1) 0 0 0 2px;
 }
 
 footer {
@@ -402,7 +399,7 @@ footer address a {
 		justify-content: center;
 		padding: 10px 0;
 	}
-	.contact-details {
+	.contact-details, .logoandh {
 		text-align: center;
 		padding: 0 10px;
 	}
@@ -412,10 +409,10 @@ footer address a {
 	#hero-section h3, #cta-section p {
 		font-size: 1.5em;
 	}
-	.hero-btn {
+	.btn {
 		font-size: 1em
 	}
-	.hero-btn img {
+	.btn img {
 		height: 1em;
 	}
 	.whyus-card {
