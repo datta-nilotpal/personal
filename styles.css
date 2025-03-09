@@ -26,12 +26,17 @@ html, body {
 }
 
 header {
-	background: #FFF;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: absolute;
-	width: 100%;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logoandh {
@@ -184,7 +189,7 @@ header {
     background: #DBE9F4;
     padding: 2em;
     text-align: center;
-    minimun-height: 1vw;
+    min-height: 100vh;
 }
 
 #practice-areas h2 {
@@ -200,6 +205,7 @@ header {
     gap: 16px;
     max-width: 900px;
     margin: 0 auto;
+	justify-content: center;
 }
 
 .practice-card {
@@ -307,17 +313,18 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 70vh;
 }
 
 #cta-section h2 {
 	margin-top: 40px;
 	max-width: 75%;
 	line-height: 1.5; 
-    	color: #FFF;
+    color: #FFF;
 	backface-visibility: hidden;
-	font-weight: 300;
+	font-weight: 800;
 	font-style: normal;
-    	font-size: 3em;
+    font-size: 3em;
 	text-align: center;
 	line-height: 1.15;
 }
@@ -383,7 +390,7 @@ footer address {
 	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
-	fontstyle: normal;
+	font-style: normal;
 	padding: 0 0 50px;
 }
 
@@ -410,9 +417,11 @@ footer address a {
 	}
 	.practice-container {
         grid-template-columns: repeat(2, 1fr);
+		width: 90%;
+        margin: 0 auto;
 	}
 	.btn {
-		font-size: 1em
+		font-size: 1em;
 	}
 	.btn img {
 		height: 1em;
@@ -421,7 +430,7 @@ footer address a {
 		width: 75%;
 		flex-direction: column;
 	}
-	.practice-card h3, {
+	.practice-card h3 {
 		font-size: 1em;
 		text-align: center;
 	}
@@ -429,11 +438,11 @@ footer address a {
 	#long-section {
 		width: 90%;
 	}
-	#long-section h3, #long-section p, {
+	#long-section h3, #long-section p {
 		font-size: 1em;
 	}
 	#cta-section h2 {
-		font size: 1.25em;
+		font-size: 1.25em;
 	}
 	#cta-section p {
 		font-size: 12px;
@@ -443,5 +452,9 @@ footer address a {
 @media (max-width: 480px) {
     .practice-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+	
+	.practice-card {
+        width: 100%;
     }
 }
