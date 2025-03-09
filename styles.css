@@ -180,68 +180,88 @@ header {
 	}
 }
 
-#practice-areas {
-	background: #DBE9F4;
-	padding: 2em;
+practice-areas {
+    background: #DBE9F4;
+    padding: 2em;
+    text-align: center;
 }
 
 #practice-areas h2 {
-	padding: 0;
-	line-height: 1.5;
-	text-align: center;
-	font-weight: 500;
-	font-style: normal;
-    	font-size: 3em;
-	line-height: 1.15;
-	text-align: center;
-}
-
-.number {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 25px;
-    background-color: #000;
-    color: #FFF;
-    font-weight: 300;
-    font-size: 14px;
-    border-radius: 50%;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 1em;
 }
 
 .practice-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .practice-card {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    margin: 2em;
-    padding: 1em;
-    text-align: center;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+}
+
+.practice-card figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.practice-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.practice-card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.practice-body {
+    padding: 10px;
 }
 
 .practice-card h3 {
-	color: #000;
-	font-weight: 400;
-	font-style: normal;
-   	font-size: 1.2em;
-	line-height: 1.5;
-	padding: 5px 0;
-	text-align: left;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000;
+    margin: 5px 0;
+}
+
+.number {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.practice-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 24px;
 }
 
 #long-section {
@@ -386,6 +406,9 @@ footer address a {
 	#hero-section h3, #cta-section p {
 		font-size: 1.5em;
 	}
+	.practice-container {
+        grid-template-columns: repeat(2, 1fr);
+	}
 	.btn {
 		font-size: 1em
 	}
@@ -413,4 +436,10 @@ footer address a {
 	#cta-section p {
 		font-size: 12px;
 	}
+}
+
+@media (max-width: 480px) {
+    .practice-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile */
+    }
 }
