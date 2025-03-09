@@ -180,10 +180,11 @@ header {
 	}
 }
 
-practice-areas {
+#practice-areas {
     background: #DBE9F4;
     padding: 2em;
     text-align: center;
+    minimun-height: 1vw;
 }
 
 #practice-areas h2 {
