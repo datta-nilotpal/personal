@@ -447,21 +447,17 @@ footer address a {
 		text-align: center;
 	}
 	#long-section {
-        width: 100%;
-        padding: 0 5vw; 
-    }
-    .long-container {
-        margin: 0 auto;
-        max-width: 100%;
-        padding: 0 5vw;
-    }
-
-    #long-section h3, #long-section p {
-        line-height: 1.6; /* More spacing between lines */
+        	width: 100%;
+        	padding: 0 5vw; 
+    	}
+    	.long-container {
+        	margin: 0 auto;
+        	max-width: 100%;
+        	padding: 0 5vw;
+    	}
+	#long-section h3, #long-section p {
+        	line-height: 1.6;
 		font-size: 1em;
-	}
-	#cta-section h2 {
-		font-size: 1.25em;
 	}
 	#cta-section p {
 		font-size: 12px;
@@ -472,7 +468,6 @@ footer address a {
     .practice-container {
         grid-template-columns: repeat(1, 1fr);
     }
-	
 	.practice-card {
         width: 100%;
     }
