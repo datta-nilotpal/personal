@@ -1,29 +1,29 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body {
-    font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+	width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    background: #F1F1F1;
+	box-shadow: inset 0 0 5px grey;
+	background: #F1F1F1; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+	background: #888; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+	background: #555; 
 }
 
 header {
@@ -40,6 +40,7 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 .logoandh {
     text-decoration: none;
     display: flex;
@@ -52,16 +53,17 @@ header {
     font-weight: 800;
     font-size: 25px;
     color: #000;
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .logoandh h2 {
     font-weight: 500;
-    letter-spacing: 5px;
+	letter-spacing: 1px;
     color: #000;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	letter-spacing: 5px;
     font-size: 10px;
-    padding-bottom: 6px;
+	padding-bottom: 6px;
 }
 
 .contact-details {
@@ -75,8 +77,8 @@ header {
     color: #000;
     display: flex;
     align-items: center;
-    font-weight: 500;
-    letter-spacing: 2px;
+	font-weight: 500;
+	letter-spacing: 2px;
     gap: 5px;
     font-size: 20px;
 }
@@ -87,71 +89,100 @@ header {
 }
 
 #hero-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    background: #000 url('images/background.jpg') no-repeat center center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	background: #000 url('images/background.jpg') no-repeat center center;
     background-size: cover;
-    width: 100%;
+	width: 100%
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 75vw;
-    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 75vw;
+	overflow: hidden;
 }
 
 #hero-section h2 {
-    padding-top: 150px;
-    color: #FFF;
-    font-weight: 700;
-    font-size: 3.5em;
-    text-align: center;
-    padding-bottom: 10px;
-    line-height: 1.15;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), 10px 10px 20px rgba(0, 0, 0, 0.8), 15px 15px 30px rgba(0, 0, 0, 0.8);
-    animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
+	padding-top: 150px;
+	color: #FFF;
+	font-weight: 700;
+	font-style: normal;
+    	font-size: 3.5em;
+	text-align: center;
+    	margin: 0px;
+	padding-bottom: 10px;
+	line-height: 1.15;
+	text-shadow:
+		5px 5px 10px rgba(0, 0, 0, 0.8), 
+		10px 10px 20px rgba(0, 0, 0, 0.8), 
+		15px 15px 30px rgba(0, 0, 0, 0.8);
+	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
 }
 
 #hero-section h3 {
-    color: #FFF;
-    font-weight: 500;
-    font-size: 2.5em;
-    line-height: 1.15;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), 10px 10px 20px rgba(0, 0, 0, 0.8), 15px 15px 30px rgba(0, 0, 0, 0.8);
-    animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
+    	color: #FFF;
+	font-weight: 500;
+	font-style: normal;
+    	font-size: 2.5em;
+	line-height: 1.15;
+    	margin: 0px;
+	line-height: 1.15;
+	text-shadow:
+		5px 5px 10px rgba(0, 0, 0, 0.8), 
+		10px 10px 20px rgba(0, 0, 0, 0.8), 
+		15px 15px 30px rgba(0, 0, 0, 0.8);
+	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
 }
 
 .btn {
-    display: flex;
-    appearance: button;
-    background-color: #ffd700;
-    border-radius: 25px;
-    border-width: 0;
-    box-shadow: rgba(60, 240, 26, .1) 0 0 0 1px inset, rgba(60, 240, 26, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
-    box-sizing: border-box;
-    color: #000;
-    cursor: pointer;
-    font-size: 20px;
-    height: 44px;
-    margin: 20px;
-    outline: none;
-    overflow: hidden;
-    padding: 10px 20px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .2s, box-shadow .08s ease-in;
-    user-select: none;
-    animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
+	display:flex;
+	appearance: button;
+	backface-visibility: hidden;
+	background-color: #ffd700;
+	border-radius: 25px;
+	border-width: 0;
+	box-shadow:
+		rgba(60, 240, 26, .1) 0 0 0 1px inset,
+		rgba(60, 240, 26, .1) 0 2px 5px 0,
+		rgba(0, 0, 0, .07) 0 1px 1px 0;
+	box-sizing: border-box;
+	color: #000;
+	cursor: pointer;
+	font-size: 20px;
+	height: 44px;
+	margin: 20px;
+	outline: none;
+	overflow: hidden;
+	padding: 10px 20px;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .2s,box-shadow .08s ease-in;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
+}
+
+.btn img {
+	height: 20px;
+	width: auto;
+	vertical-align: middle;
+	padding-right: 7px;
+}
+
+.btn:disabled {
+	cursor: default;
 }
 
 .btn:hover {
@@ -161,22 +192,221 @@ header {
 }
 
 .btn:focus {
-    box-shadow: rgba(255, 255, 255, 1) 0 0 0 2px;
+	box-shadow: rgba(255, 255, 255, 1) 0 0 0 2px;
 }
 
 @keyframes easeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(250px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
-@media (max-width: 768px) {
-    header {
+#practice-areas {
+    background: #fffabf;
+    padding: 2em;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#practice-areas h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 5px;
+    text-align: center;
+}
+
+.practice-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+	justify-content: center;
+}
+
+.practice-card {
+    position: relative;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.practice-card figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.practice-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.practice-card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.practice-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.practice-card h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+    margin: -10px;
+}
+
+.number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.practice-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
+    transform: translateY(-5px);
+}
+
+
+#long-section {
+	background: #fff;
+}
+
+.long-container {
+	margin: 0 20vw;
+	padding-bottom: 30px;
+}
+
+#long-section h2 {
+	padding: 30px 0;
+	line-height: 1.5;
+	text-align: center;
+	font-weight: 800;
+	color: #000;
+	font-style: normal;
+    font-size: 3em;
+	line-height: 1.15;
+}
+
+#long-section h3 {
+    font-size: 1.2em;
+	line-height: 1.5;
+	padding: 10px 0;
+}
+
+#long-section p {
+    font-size: 1.2em;
+	line-height: 1.5;
+	padding: 20px 0;
+}
+
+#cta-section {
+	border-top: 5px solid transparent;
+	border-image: linear-gradient(to right, #fffabf 0%, #ffd700 40%, #b3a500 50%, #fffabf 60%, #fffabf 100%) 1;
+	background: #000;
+	min-height: 60vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#cta-section h2 {
+	margin-top: 40px;
+	max-width: 75%;
+	line-height: 1.5; 
+    color: #FFF;
+	backface-visibility: hidden;
+	font-weight: 800;
+	font-style: normal;
+    font-size: 3em;
+	text-align: center;
+	line-height: 1.15;
+}
+
+#cta-section p {
+	max-width: 75%;
+    color: #FFF;
+	backface-visibility: hidden;
+	font-weight: 300;
+	font-style: normal;
+    font-size: 12px;
+	text-align: center;
+    margin: 0px;
+	line-height: 1.15;
+}
+
+footer {
+	background: #000;
+	padding: 0;
+	margin: 0;
+}
+
+footer p {
+	color: #FFF;
+	font-style: normal;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0 10vw;
+}
+
+footer address {
+	color: #FFF;
+	font-style: normal;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0 0 50px;
+}
+
+footer address a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+@media (max-width: 768px) {	
+	header {
         flex-direction: column;
         text-align: center;
         padding: 10px 0;
@@ -191,24 +421,59 @@ header {
         font-size: 14px;
         padding: 5px 0;
     }
-    #hero-section h2 {
-        font-size: 3em;
-    }
-    #hero-section h3 {
-        font-size: 1.5em;
-    }
-    .practice-container {
+	#hero-section h2, #faq-section h2, #cta-section h2 {
+		font-size: 3em;
+	}
+	#hero-section h3, #cta-section p {
+		font-size: 1.5em;
+	}
+	.practice-container {
         grid-template-columns: repeat(2, 1fr);
-        width: 90%;
+		width: 90%;
         margin: 0 auto;
+	}
+	.btn {
+		font-size: 1em;
+	}
+	.btn img {
+		height: 1em;
+	}
+	.practice-card {
+		width: 75%;
+		flex-direction: column;
+	}
+	.practice-card h3 {
+		font-size: 1em;
+		text-align: center;
+	}
+	#long-section {
+        width: 100%;
+        padding: 0 5vw; 
     }
+    .long-container {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 5vw;
+    }
+
+    #long-section h3, #long-section p {
+        line-height: 1.6; /* More spacing between lines */
+		font-size: 1em;
+	}
+	#cta-section p {
+		font-size: 12px;
+	}
 }
 
 @media (max-width: 480px) {
     .practice-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .btn {
+	
+	.practice-card {
+        width: 100%;
+    }
+	btn {
         font-size: 16px;
         height: 40px;
         padding: 8px 16px;
