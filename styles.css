@@ -126,6 +126,14 @@ header {
 	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
 }
 
+.cursive-text {
+    font-family: "Lavishly Yours", cursive;
+	color: #ffd700;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5em;
+}
+
 #hero-section h3 {
     	color: #FFF;
 	font-weight: 500;
