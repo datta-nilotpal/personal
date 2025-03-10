@@ -6,6 +6,7 @@
 
 html, body {
 	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -26,7 +27,7 @@ html, body {
 }
 
 header {
-    background: #FFF;
+    background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,38 +36,54 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    padding: 10px 20px;
+    padding: 0 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 .logoandh {
-	text-decoration: none;
-	align-items: center;
-	padding: 2px 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2px 10px;
 }
 
 .logoandh h1 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 25px;
-    margin-bottom: -5px;
     color: #000;
+	margin-bottom: -5px;
 }
 
 .logoandh h2 {
-	font-weight: 500;
-	font-style: italic;
-	color: #1D4EF0;
-	font-size: 15px;
+    font-weight: 800;
+	letter-spacing: 1px;
+    font-style: italic;
+    color: #B3A500;
+    font-size: 15px;
 }
 
 .contact-details {
-	padding-right: 10px;
-	font-style: normal;
+    display: flex;
+    gap: 20px;
+    font-style: normal;
 }
 
 .contact-details a {
-	text-decoration: none;
-	color: #000;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+	font-weight: 500;
+	letter-spacing: 2px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.contact-details a i {
+    color: #B3A500;
+    font-size: 15px;
 }
 
 #hero-section {
@@ -76,11 +93,8 @@ header {
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
-	background-image: url('background.svg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	display: inline-flex;
+	background: #000 url('images/background.jpg') no-repeat center center;
+    background-size: cover;
 	width: 100%
 }
 
@@ -129,7 +143,7 @@ header {
 	display:flex;
 	appearance: button;
 	backface-visibility: hidden;
-	background-color: #1AEF41;
+	background-color: #ffd700;
 	border-radius: 25px;
 	border-width: 0;
 	box-shadow:
@@ -169,6 +183,12 @@ header {
 	cursor: default;
 }
 
+.btn:hover {
+    background-color: #fffabf;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
 .btn:focus {
 	box-shadow: rgba(255, 255, 255, 1) 0 0 0 2px;
 }
@@ -186,7 +206,7 @@ header {
 }
 
 #practice-areas {
-    background: #DBE9F4;
+    background: #fffabf;
     padding: 2em;
     text-align: center;
     min-height: 100vh;
@@ -203,7 +223,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 	justify-content: center;
 }
@@ -282,40 +302,40 @@ header {
 
 
 #long-section {
-	width: 50%;
-	margin: 80px auto;
+	background: #fff;
+}
+
+.long-container {
+	margin: 0 20vw;
+	padding-bottom: 30px;
 }
 
 #long-section h2 {
-	padding: 0;
+	padding: 30px 0;
 	line-height: 1.5;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 800;
+	color: #000;
 	font-style: normal;
-    	font-size: 3em;
+    font-size: 3em;
 	line-height: 1.15;
-	text-align: center;
-}
-
-.long-item {
-	padding: 20px;
 }
 
 #long-section h3 {
-    	font-size: 1.2em;
+    font-size: 1.2em;
 	line-height: 1.5;
 	padding: 10px 0;
 }
 
 #long-section p {
-    	font-size: 1.2em;
+    font-size: 1.2em;
 	line-height: 1.5;
 	padding: 20px 0;
 }
 
 #cta-section {
 	border-top: 5px solid transparent;
-	border-image: linear-gradient(to right, #1A81EF 0%, #1A81EF 40%, #211AF0 50%, #1A81EF 60%, #1A81EF 100%) 1;
+	border-image: linear-gradient(to right, #fffabf 0%, #ffd700 40%, #b3a500 50%, #fffabf 60%, #fffabf 100%) 1;
 	background: #000;
 	min-height: 60vh;
 	display:flex;
@@ -323,6 +343,8 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 70vh;
+	margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #cta-section h2 {
@@ -340,47 +362,20 @@ header {
 
 #cta-section p {
 	max-width: 75%;
-    	color: #FFF;
+    color: #FFF;
 	backface-visibility: hidden;
 	font-weight: 300;
 	font-style: normal;
-    	font-size: 12px;
+    font-size: 12px;
 	text-align: center;
-    	margin: 0px;
+    margin: 0px;
 	line-height: 1.15;
-}
-
-#cta-section a {
-	display:flex;
-	appearance: button;
-	backface-visibility: hidden;
-	background-color: #1AEF41;
-	border-radius: 2em;
-	border-width: 0;
-	box-shadow: rgba(60, 240, 26, .1) 0 0 0 1px inset,rgba(60, 240, 26, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
-	box-sizing: border-box;
-	color: #000;
-	cursor: pointer;
-	font-size: 20px;
-	height: 44px;
-	margin: 20px;
-	outline: none;
-	overflow: hidden;
-	padding: 10px 20px;
-	position: relative;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition: all .2s,box-shadow .08s ease-in;
-	user-select: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
 }
 
 footer {
 	background: #000;
+	padding: 0;
+	margin: 0;
 }
 
 footer p {
@@ -389,7 +384,7 @@ footer p {
 	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
-	fontstyle: normal;
+	font-style: normal;
 	padding: 0 10vw;
 }
 
@@ -410,14 +405,20 @@ footer address a {
 
 @media (max-width: 768px) {	
 	header {
-		flex-direction: column;
-		justify-content: center;
-		padding: 10px 0;
-	}
-	.contact-details, .logoandh {
-		text-align: center;
-		padding: 0 10px;
-	}
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .logoandh {
+        align-items: center;
+    }
+    .contact-details {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        padding: 5px 0;
+    }
 	#hero-section h2, #faq-section h2, #cta-section h2 {
 		font-size: 3em;
 	}
@@ -465,5 +466,10 @@ footer address a {
 	
 	.practice-card {
         width: 100%;
+    }
+	btn {
+        font-size: 16px;
+        height: 40px;
+        padding: 8px 16px;
     }
 }
