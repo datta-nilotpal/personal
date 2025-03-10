@@ -114,9 +114,9 @@ header {
 	color: #FFF;
 	font-weight: 700;
 	font-style: normal;
-    	font-size: 3.5em;
+    font-size: 3.5em;
 	text-align: center;
-    	margin: 0px;
+    margin: 0px;
 	padding-bottom: 10px;
 	line-height: 1.15;
 	text-shadow:
@@ -132,15 +132,25 @@ header {
     font-weight: 400;
     font-style: normal;
     font-size: 3.5em;
+	display: inline-block;
+	margin: -100px 0 -30px;
+	padding: 0 25px;
+    visibility: hidden;
+}
+
+.font-loaded .cursive-text {
+    visibility: visible;
+    transition: opacity 0.3s ease-in;
+    opacity: 1;
 }
 
 #hero-section h3 {
-    	color: #FFF;
+    color: #FFF;
 	font-weight: 500;
 	font-style: normal;
-    	font-size: 2.5em;
+    font-size: 2.5em;
 	line-height: 1.15;
-    	margin: 0px;
+    margin: 0px;
 	line-height: 1.15;
 	text-shadow:
 		5px 5px 10px rgba(0, 0, 0, 0.8), 
@@ -435,6 +445,9 @@ footer address a {
 	#hero-section h3, #cta-section p {
 		font-size: 1.5em;
 	}
+	.cursive-text {
+        font-size: 3em;
+    }
 	.practice-container {
         grid-template-columns: repeat(2, 1fr);
 		width: 90%;
