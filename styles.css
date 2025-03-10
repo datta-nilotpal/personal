@@ -124,6 +124,7 @@ header {
 		10px 10px 20px rgba(0, 0, 0, 0.8), 
 		15px 15px 30px rgba(0, 0, 0, 0.8);
 	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
+	visibility:hidden;
 }
 
 .cursive-text {
@@ -138,9 +139,10 @@ header {
     visibility: hidden;
 }
 
+.font-loaded #hero-section h2, 
+.font-loaded #hero-section h3, 
 .font-loaded .cursive-text {
     visibility: visible;
-    transition: opacity 0.3s ease-in;
     opacity: 1;
 }
 
@@ -157,6 +159,7 @@ header {
 		10px 10px 20px rgba(0, 0, 0, 0.8), 
 		15px 15px 30px rgba(0, 0, 0, 0.8);
 	animation: easeIn 0.3s ease-in 0.3s 1 normal forwards;
+	visibility: hidden;
 }
 
 .btn {
