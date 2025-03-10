@@ -50,18 +50,20 @@ header {
 }
 
 .logoandh h1 {
-    font-weight: 500;
+    font-weight: 800;
     font-size: 25px;
     color: #000;
-	margin-bottom: -5px;
+    margin-bottom: 0;
 }
 
 .logoandh h2 {
-    font-weight: 800;
-	letter-spacing: 1px;
-    font-style: italic;
-    color: #B3A500;
-    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+    padding-bottom: 6px;
 }
 
 .contact-details {
