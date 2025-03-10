@@ -53,17 +53,17 @@ header {
     font-weight: 800;
     font-size: 25px;
     color: #000;
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .logoandh h2 {
     font-weight: 500;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
     color: #000;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
     font-size: 10px;
-    padding-bottom: 6px;
+	padding-bottom: 6px;
 }
 
 .contact-details {
@@ -446,11 +446,18 @@ footer address a {
 		font-size: 1em;
 		text-align: center;
 	}
-
 	#long-section {
-		width: 90%;
-	}
-	#long-section h3, #long-section p {
+        width: 100%;
+        padding: 0 5vw; 
+    }
+    .long-container {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 5vw;
+    }
+
+    #long-section h3, #long-section p {
+        line-height: 1.6; /* More spacing between lines */
 		font-size: 1em;
 	}
 	#cta-section h2 {
