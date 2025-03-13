@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /drafts/
+Disallow: /private/
+Allow: /
+
+Sitemap: https://www.nilotpaldatta.com/sitemap.xml
