@@ -95,7 +95,7 @@ header {
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
-	background: #000 url('images/background.jpg') no-repeat center center;
+	background: #000 url('images/background.webp') no-repeat center center;
     background-size: cover;
 	width: 100%
 }
