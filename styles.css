@@ -27,65 +27,64 @@ html, body {
 }
 
 header {
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 0 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	background: #fff;
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	z-index: 1000;
+    	padding: 0 20px;
+    	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .logoandh {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 2px 10px;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 2px 10px;
 }
 
 .logoandh h1 {
-    font-weight: 800;
-    font-size: 25px;
-    color: #000;
+	font-weight: 800;
+	font-size: 25px;
+	color: #000;
 	margin-bottom: 0;
 }
 
 .logoandh h2 {
-    font-weight: 500;
+	font-weight: 500;
 	letter-spacing: 1px;
-    color: #000;
+	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-    font-size: 10px;
+	font-size: 10px;
 	padding-bottom: 6px;
 }
 
 .contact-details {
-    display: flex;
-    gap: 20px;
-    font-style: normal;
+	display: flex;
+	gap: 20px;
+	font-style: normal;
 }
 
 .contact-details a {
-    text-decoration: none;
-    color: #000;
-    display: flex;
-    align-items: center;
+	text-decoration: none;
+	color: #000;
+	display: flex;
+	align-items: center;
 	font-weight: 500;
 	letter-spacing: 2px;
-    gap: 5px;
-    font-size: 20px;
+	gap: 5px;
+	font-size: 20px;
 }
 
 .contact-details a i {
-    color: #B3A500;
-    font-size: 15px;
+	color: #B3A500;
+	font-size: 15px;
 }
 
 #hero-section {
@@ -96,7 +95,7 @@ header {
 	text-align: center;
 	flex-direction: column;
 	background: #000 url('images/background.webp') no-repeat center center;
-    background-size: cover;
+	background-size: cover;
 	width: 100%
 }
 
@@ -110,19 +109,19 @@ header {
 }
 
 .profile-image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -120px;
 }
 
 .hero-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 10px solid white;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 6px solid white;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 #hero-section h2 {
@@ -130,9 +129,9 @@ header {
 	color: #FFF;
 	font-weight: 700;
 	font-style: normal;
-    font-size: 3.5em;
+    	font-size: 3.5em;
 	text-align: center;
-    margin: 0px;
+    	margin: 0px;
 	padding-bottom: 10px;
 	line-height: 1.15;
 	text-shadow:
@@ -144,31 +143,31 @@ header {
 }
 
 .cursive-text {
-    font-family: "Lavishly Yours", cursive;
+    	font-family: "Lavishly Yours", cursive;
 	color: #ffd700;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3.5em;
+    	font-weight: 400;
+    	font-style: normal;
+	font-size: 3.5em;
 	display: inline-block;
 	margin: -100px 0 -30px;
 	padding: 0 25px;
-    visibility: hidden;
+    	visibility: hidden;
 }
 
 .font-loaded #hero-section h2, 
 .font-loaded #hero-section h3, 
 .font-loaded .cursive-text {
-    visibility: visible;
-    opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 #hero-section h3 {
-    color: #FFF;
+	color: #FFF;
 	font-weight: 500;
 	font-style: normal;
-    font-size: 2.5em;
+	font-size: 2.5em;
 	line-height: 1.15;
-    margin: 0px;
+	margin: 0px;
 	line-height: 1.15;
 	text-shadow:
 		5px 5px 10px rgba(0, 0, 0, 0.8), 
@@ -223,9 +222,9 @@ header {
 }
 
 .btn:hover {
-    background-color: #fffabf;
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
+	background-color: #fffabf;
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
 }
 
 .btn:focus {
@@ -245,98 +244,98 @@ header {
 }
 
 #practice-areas {
-    background: #fffabf;
-    padding: 2em;
-    text-align: center;
-    min-height: 100vh;
+	background: #fffabf;
+	padding: 2em;
+	text-align: center;
+	min-height: 100vh;
 }
 
 #practice-areas h2 {
-    font-size: 2.5em;
-    font-weight: 600;
-    margin: 5px;
-    text-align: center;
+	font-size: 2.5em;
+    	font-weight: 600;
+    	margin: 5px;
+    	text-align: center;
 }
 
 .practice-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    max-width: 1200px;
-    margin: 0 auto;
+    	display: grid;
+    	grid-template-columns: repeat(3, 1fr);
+    	gap: 16px;
+    	max-width: 1200px;
+    	margin: 0 auto;
 	justify-content: center;
 }
 
 .practice-card {
-    position: relative;
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    	position: relative;
+    	border-radius: 15px;
+    	background: rgba(255, 255, 255, 0.2);
+    	backdrop-filter: blur(20px);
+    	-webkit-backdrop-filter: blur(20px);
+    	overflow: hidden;
+    	transition: all 0.3s ease-in-out;
+    	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+    	padding: 15px;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
 }
 
 .practice-card figure {
-    margin: 0;
-    padding: 0;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-radius: 10px;
+    	margin: 0;
+    	padding: 0;
+    	aspect-ratio: 4 / 3;
+    	overflow: hidden;
+    	position: relative;
+    	display: block;
+    	width: 100%;
+    	border-radius: 10px;
 }
 
 .practice-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: grayscale(100%);
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+	width: 100%;
+    	height: 100%;
+    	object-fit: cover;
+    	filter: grayscale(100%);
+    	transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 .practice-card:hover img {
-    filter: grayscale(0%);
-    transform: scale(1.05);
+	filter: grayscale(0%);
+	transform: scale(1.05);
 }
 
 .practice-body {
-    padding: 15px;
-    text-align: center;
+	padding: 15px;
+	text-align: center;
 }
 
 .practice-card h3 {
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #000;
-    margin: -10px;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000;
+    	margin: -10px;
 }
 
 .number {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
-    font-weight: 700;
-    color: #FFF;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+	position: absolute;
+    	top: 10px;
+    	left: 10px;
+    	width: 30px;
+    	height: 30px;
+    	font-size: 14px;
+    	font-weight: 700;
+    	color: #FFF;
+    	background: rgba(0, 0, 0, 0.8);
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	border-radius: 50%;
 }
 
 .practice-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
-    transform: translateY(-5px);
+    	box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
+    	transform: translateY(-5px);
 }
 
 
@@ -356,18 +355,18 @@ header {
 	font-weight: 800;
 	color: #000;
 	font-style: normal;
-    font-size: 3em;
+    	font-size: 3em;
 	line-height: 1.15;
 }
 
 #long-section h3 {
-    font-size: 1.2em;
+    	font-size: 1.2em;
 	line-height: 1.5;
 	padding: 10px 0;
 }
 
 #long-section p {
-    font-size: 1.2em;
+    	font-size: 1.2em;
 	line-height: 1.5;
 	padding: 20px 0;
 }
@@ -383,31 +382,31 @@ header {
 	align-items: center;
 	height: 70vh;
 	margin-bottom: 0;
-    padding-bottom: 0;
+    	padding-bottom: 0;
 }
 
 #cta-section h2 {
 	margin-top: 40px;
 	max-width: 75%;
 	line-height: 1.5; 
-    color: #FFF;
+    	color: #FFF;
 	backface-visibility: hidden;
 	font-weight: 800;
 	font-style: normal;
-    font-size: 3em;
+    	font-size: 3em;
 	text-align: center;
 	line-height: 1.15;
 }
 
 #cta-section p {
 	max-width: 75%;
-    color: #FFF;
+    	color: #FFF;
 	backface-visibility: hidden;
 	font-weight: 300;
 	font-style: normal;
-    font-size: 12px;
+    	font-size: 12px;
 	text-align: center;
-    margin: 0px;
+    	margin: 0px;
 	line-height: 1.15;
 }
 
@@ -465,16 +464,16 @@ footer address a {
 	font-size: 1.5em;
     }
     .hero-image {
-        width: 70px;
-        height: 70px;
-        border: 8px solid white;
+        width: 50px;
+        height: 50px;
+        border: 4px solid white;
     }
     .cursive-text {
         font-size: 3em;
     }
     .practice-container {
         grid-template-columns: repeat(2, 1fr);
-		width: 90%;
+	width: 90%;
         margin: 0 auto;
      }
      .btn {
@@ -511,22 +510,22 @@ footer address a {
 }
 
 @media (max-width: 480px) {
-    .practice-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+	.practice-container {
+        	grid-template-columns: repeat(1, 1fr);
+    	}
 	
 	.practice-card {
-        width: 100%;
-    }
+        	width: 100%;
+    	}
 	btn {
         font-size: 16px;
         height: 40px;
         padding: 8px 16px;
     }
-	    .hero-image {
-        width: 60px;
-        height: 60px;
-        border: 6px solid white;
+	.hero-image {
+        width: 40px;
+        height: 40px;
+        border: 3px solid white;
     }
 }
 }
