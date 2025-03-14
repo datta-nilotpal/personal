@@ -447,7 +447,12 @@ footer address a {
 		padding: 10px 0;
 	}
 	logoandh {
-	    align-items: center;
+	    	align-items: center;
+		width: 100%;
+        	text-align: center;
+	}
+	.logoandh h1, .logoandh h2 {
+        text-align: center;
 	}
 	.contact-details {
 	    flex-direction: column;
