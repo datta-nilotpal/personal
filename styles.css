@@ -83,6 +83,7 @@ header {
 	letter-spacing: 2px;
 	gap: 5px;
 	font-size: 20px;
+	white-space: nowrap;
 }
 
 .contact-details a i {
@@ -99,7 +100,7 @@ header {
 	flex-direction: column;
 	background: #000 url('images/background.webp') no-repeat center center;
 	background-size: cover;
-	width: 100%
+	width: 100%;
 }
 
 .hero-container {
