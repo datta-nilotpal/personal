@@ -452,7 +452,7 @@ footer address a {
         	text-align: center !important;
 	}
 	.logoandh h1, .logoandh h2 {
-        text-align: center;
+        text-align: center !important;
 	}
 	.contact-details {
 	    flex-direction: column;
