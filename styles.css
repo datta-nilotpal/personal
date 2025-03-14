@@ -447,9 +447,9 @@ footer address a {
 		padding: 10px 0;
 	}
 	logoandh {
-	    	align-items: center;
+	    	align-items: center !important;
 		width: 100%;
-        	text-align: center;
+        	text-align: center !important;
 	}
 	.logoandh h1, .logoandh h2 {
         text-align: center;
