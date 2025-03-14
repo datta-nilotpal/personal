@@ -112,7 +112,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: -120px;
+	margin-bottom: -140px;
 }
 
 .hero-image {
@@ -120,7 +120,7 @@ header {
 	height: 100px;
 	border-radius: 50%;
 	object-fit: cover;
-	border: 6px solid white;
+	border: 4px solid white;
 }
 
 #hero-section h2 {
@@ -465,7 +465,7 @@ footer address a {
     .hero-image {
         width: 50px;
         height: 50px;
-        border: 4px solid white;
+        border: 2px solid white;
     }
     .cursive-text {
         font-size: 3em;
@@ -524,7 +524,7 @@ footer address a {
 	.hero-image {
         width: 40px;
         height: 40px;
-        border: 3px solid white;
+        border: 1px solid white;
     }
 }
 }
