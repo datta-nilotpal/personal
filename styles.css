@@ -113,12 +113,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: -60px;
 }
 
 .hero-image {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     border: 10px solid white;
@@ -465,8 +465,8 @@ footer address a {
 	font-size: 1.5em;
     }
     .hero-image {
-        width: 160px;
-        height: 160px;
+        width: 70px;
+        height: 70px;
         border: 8px solid white;
     }
     .cursive-text {
@@ -524,8 +524,8 @@ footer address a {
         padding: 8px 16px;
     }
 	    .hero-image {
-        width: 140px;
-        height: 140px;
+        width: 60px;
+        height: 60px;
         border: 6px solid white;
     }
 }
