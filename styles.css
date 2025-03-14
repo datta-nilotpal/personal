@@ -50,6 +50,7 @@ header {
 }
 
 .logoandh h1 {
+	text-decoration: none;
 	font-weight: 800;
 	font-size: 25px;
 	color: #000;
