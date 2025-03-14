@@ -109,6 +109,22 @@ header {
 	overflow: hidden;
 }
 
+.profile-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
 #hero-section h2 {
 	padding-top: 150px;
 	color: #FFF;
@@ -442,34 +458,39 @@ footer address a {
         font-size: 14px;
         padding: 5px 0;
     }
-	#hero-section h2, #faq-section h2, #cta-section h2 {
-		font-size: 3em;
-	}
-	#hero-section h3, #cta-section p {
-		font-size: 1.5em;
-	}
-	.cursive-text {
+    #hero-section h2, #faq-section h2, #cta-section h2 {
+	font-size: 3em;
+    }
+    #hero-section h3, #cta-section p {
+	font-size: 1.5em;
+    }
+    .hero-image {
+        width: 160px;
+        height: 160px;
+        border: 8px solid white;
+    }
+    .cursive-text {
         font-size: 3em;
     }
-	.practice-container {
+    .practice-container {
         grid-template-columns: repeat(2, 1fr);
 		width: 90%;
         margin: 0 auto;
-	}
-	.btn {
-		font-size: 1em;
-	}
-	.btn img {
-		height: 1em;
-	}
-	.practice-card {
-		width: 75%;
-		flex-direction: column;
-	}
-	.practice-card h3 {
-		font-size: 1em;
-		text-align: center;
-	}
+     }
+     .btn {
+	font-size: 1em;
+     }
+     .btn img {
+	height: 1em;
+     }
+     .practice-card {
+	width: 75%;
+	flex-direction: column;
+      }
+      .practice-card h3 {
+	 font-size: 1em;
+	 text-align: center;
+      }
 	#long-section {
         width: 100%;
         padding: 0 5vw; 
@@ -502,4 +523,10 @@ footer address a {
         height: 40px;
         padding: 8px 16px;
     }
+	    .hero-image {
+        width: 140px;
+        height: 140px;
+        border: 6px solid white;
+    }
+}
 }
