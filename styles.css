@@ -565,7 +565,7 @@ footer address a {
     }
 
     .profile-image-wrapper {
-        margin-top: 50px; /* Reduce from 100px */
+        margin-top: 80px; /* Reduce from 100px */
         margin-bottom: -80px; /* Adjust from -140px */
     }
 
