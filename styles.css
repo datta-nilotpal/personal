@@ -445,7 +445,7 @@ footer address a {
 	color: #FFF;
 }
 
-@media (max-width: 768px) {	
+@media (max-width: 838px) {	
 	header {
 		flex-direction: column;
 		text-align: center;
