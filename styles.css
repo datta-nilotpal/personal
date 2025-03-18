@@ -26,35 +26,38 @@ html, body {
 	background: #555; 
 }
 
-/* Default header (when scrolled) */
 header {
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 10px 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease, color 0.3s ease;
+    	background: #fff;
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	z-index: 1000;
+    	padding: 10px 20px;
+    	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    	transition: background 0.3s ease, color 0.3s ease;
 }
 
 header.transparent-header {
-    background: transparent;
-    box-shadow: none;
+    	background: transparent;
+   	 box-shadow: none;
 }
 
 header.transparent-header .logoandh h1,
 header.transparent-header .logoandh h2,
 header.transparent-header .contact-details a {
-    color: #fff;
+    	color: #fff;
+	text-shadow:
+		5px 5px 10px rgba(0, 0, 0, 0.8), 
+		10px 10px 20px rgba(0, 0, 0, 0.8), 
+		15px 15px 30px rgba(0, 0, 0, 0.8);
 }
 
 header.transparent-header .contact-details a i {
-    color: #ffd700; /* or any contrasting color */
+    	color: #ffd700;
 }
 
 
@@ -175,6 +178,10 @@ header.transparent-header .contact-details a i {
 	margin: -100px 0 -30px;
 	padding: 0 25px;
     	visibility: hidden;
+	text-shadow:
+		5px 5px 10px rgba(0, 0, 0, 0.8), 
+		10px 10px 20px rgba(0, 0, 0, 0.8), 
+		15px 15px 30px rgba(0, 0, 0, 0.8);
 }
 
 .font-loaded #hero-section h2, 
