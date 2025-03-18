@@ -6,4 +6,21 @@ document.addEventListener("DOMContentLoaded", function () {
     ]).then(function () {
         document.body.classList.add("font-loaded");
     });
+
+    // Scroll behavior for header transparency
+    const header = document.querySelector("header");
+
+    function updateHeader() {
+        if (window.scrollY === 0) {
+            header.classList.add("transparent-header");
+        } else {
+            header.classList.remove("transparent-header");
+        }
+    }
+
+    // Initial check when page loads
+    updateHeader();
+
+    // Listen for scroll events
+    window.addEventListener("scroll", updateHeader);
 });
